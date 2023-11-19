@@ -1,9 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2023-11-19T06:43:48.270Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.3" etag="kQYT2x17FtpwfNbxjO3N" type="github">
-  <diagram name="Page-1" id="Vr-k6eIDD1L0xtyGLSiC">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-11-19T07:18:05.579Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5f5KC7XMQiD4jofXPnbp" version="22.1.3" type="github" pages="2">
+  <diagram name="Use Case" id="Vr-k6eIDD1L0xtyGLSiC">
+    <mxGraphModel dx="588" dy="338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="O1Pe8Y_q9PT6jZxXBtaG-1" value="SRC" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="120" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O1Pe8Y_q9PT6jZxXBtaG-3" value="Club Representative" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O1Pe8Y_q9PT6jZxXBtaG-6" value="System Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="120" y="380" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O1Pe8Y_q9PT6jZxXBtaG-7" value="Approver" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="120" y="490" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O1Pe8Y_q9PT6jZxXBtaG-8" value="Upload Proposal" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="305" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O1Pe8Y_q9PT6jZxXBtaG-9" value="Comment Proposal" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O1Pe8Y_q9PT6jZxXBtaG-10" value="Configure Role" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O1Pe8Y_q9PT6jZxXBtaG-11" value="Approve Proposal" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O1Pe8Y_q9PT6jZxXBtaG-12" value="Add Budget" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HQS-3BrFU46sJ2edQuhw" name="Pages">
+    <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vzbYE1EoQ300LM9AKa_l-3" value="" style="swimlane;startSize=0;fillColor=#b1ddf0;strokeColor=#10739e;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="60" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vzbYE1EoQ300LM9AKa_l-4" value="SRC Dashboard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vzbYE1EoQ300LM9AKa_l-3">
+          <mxGeometry x="90" y="10" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vzbYE1EoQ300LM9AKa_l-5" value="&lt;b&gt;Progress&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;New Proposal&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;In Review&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;Done Proposal&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="vzbYE1EoQ300LM9AKa_l-3">
+          <mxGeometry x="30" y="60" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vzbYE1EoQ300LM9AKa_l-6" value="&lt;b&gt;List of Proposal&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="vzbYE1EoQ300LM9AKa_l-3">
+          <mxGeometry x="140" y="60" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vzbYE1EoQ300LM9AKa_l-7" value="&lt;b&gt;Budget Analysis&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="vzbYE1EoQ300LM9AKa_l-3">
+          <mxGeometry x="70" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vzbYE1EoQ300LM9AKa_l-8" value="" style="swimlane;startSize=0;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="420" y="60" width="265" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="vzbYE1EoQ300LM9AKa_l-9" value="Club Dashboard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vzbYE1EoQ300LM9AKa_l-8">
+          <mxGeometry x="92.5" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vzbYE1EoQ300LM9AKa_l-10" value="&lt;b&gt;Progress&lt;/b&gt;&lt;br&gt;Pending Proposal&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="vzbYE1EoQ300LM9AKa_l-8">
+          <mxGeometry x="25" y="60" width="95" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vzbYE1EoQ300LM9AKa_l-11" value="&lt;b&gt;List Of Past Activities&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="vzbYE1EoQ300LM9AKa_l-8">
+          <mxGeometry x="135" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vzbYE1EoQ300LM9AKa_l-12" value="" style="swimlane;startSize=0;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="90" y="340" width="260" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="vzbYE1EoQ300LM9AKa_l-13" value="Approver Dashboard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vzbYE1EoQ300LM9AKa_l-12">
+          <mxGeometry x="100" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vzbYE1EoQ300LM9AKa_l-14" value="&lt;b&gt;Progress&lt;/b&gt;&lt;br&gt;Pending Proposal&lt;br&gt;Approved Proposal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="vzbYE1EoQ300LM9AKa_l-12">
+          <mxGeometry x="27.5" y="70" width="95" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vzbYE1EoQ300LM9AKa_l-15" value="" style="swimlane;startSize=0;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="425" y="340" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vzbYE1EoQ300LM9AKa_l-17" value="System Admin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vzbYE1EoQ300LM9AKa_l-15">
+          <mxGeometry x="70" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vzbYE1EoQ300LM9AKa_l-18" value="&lt;b&gt;User List&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="vzbYE1EoQ300LM9AKa_l-15">
+          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
