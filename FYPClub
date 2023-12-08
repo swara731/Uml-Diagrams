@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T16:26:34.746Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="6KFpEhTw6fX7rnwpyCF9" version="22.1.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-12-08T16:32:17.248Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ubgtcwivbo6qOPNd_udQ" version="22.1.7" type="github" pages="6">
   <diagram name="Use Case" id="Vr-k6eIDD1L0xtyGLSiC">
     <mxGraphModel dx="1413" dy="2017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -863,8 +863,19 @@
         <mxCell id="GREkJeXigOYLlklciBKs-87" value="Reject Proposal" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="720" y="1060" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="GREkJeXigOYLlklciBKs-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="GREkJeXigOYLlklciBKs-90" target="GREkJeXigOYLlklciBKs-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GREkJeXigOYLlklciBKs-98" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GREkJeXigOYLlklciBKs-97">
+          <mxGeometry x="0.0863" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GREkJeXigOYLlklciBKs-90" value="Activate Account" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="200" y="240" width="120" height="80" as="geometry" />
+          <mxGeometry x="220" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GREkJeXigOYLlklciBKs-96" value="Display Success Message" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="310" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
